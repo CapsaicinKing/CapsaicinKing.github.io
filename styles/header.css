@@ -6,13 +6,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: lightblue;
-  height: 6em;
+  background-color: rgb(55, 144, 247);
+  height: 3.8em;
 }
 
-.logo {
-  width: 5em;
-  height: 5em;
-  object-fit: cover;
-  background-color: white;
+.home-icon {
+  width: 4em;
+  height: 4em;
+}
+
+.header-title {
+  color: white;
+  font-family: 'Cherry Swash', Arial;
+  font-size: 1.6em;
+  text-align: center;
+  margin-right: 1em;
+}
+
+.hamburger-menu-icon {
+  width: 2.2em;
+  height: 2.4em;
+  margin-right: 1em;
 }
