@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  height: 6em;
+}
+
+.logo {
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  background-color: white;
+}
