@@ -26,8 +26,10 @@
   font-family: 'Cherry Swash', Arial;
   font-size: 2em;
   text-align: center;
-  margin-right: 1em;
+  margin-right: 0.5em;
   white-space: nowrap;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .hamburger-menu-icon {
