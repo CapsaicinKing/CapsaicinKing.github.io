@@ -7,25 +7,30 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(55, 144, 247);
-  height: 3.8em;
+  height: 60px;
   z-index: 100;
 }
 
+.home-icon-container {
+  height: 60px;
+  width: 60px;
+}
+
 .home-icon {
-  width: 4em;
-  height: 4em;
+  height: 100%;
+  width: 100
 }
 
 .header-title {
   color: white;
   font-family: 'Cherry Swash', Arial;
-  font-size: 1.6em;
+  font-size: 30px;
   text-align: center;
-  margin-right: 1em;
+  margin-right: 16px;
 }
 
 .hamburger-menu-icon {
-  width: 2.2em;
-  height: 2.4em;
-  margin-right: 1em;
+  width: 34px;
+  height: 38px;
+  margin-right: 16px;
 }
