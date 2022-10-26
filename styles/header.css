@@ -7,30 +7,31 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(55, 144, 247);
-  height: 60px;
+  height: 3.8em;
   z-index: 100;
 }
 
 .home-icon-container {
-  height: 60px;
-  width: 60px;
+  height: 3.8em;
+  width: 3.8em;
 }
 
 .home-icon {
   height: 100%;
-  width: 100
+  width: 100%;
 }
 
 .header-title {
   color: white;
   font-family: 'Cherry Swash', Arial;
-  font-size: 30px;
+  font-size: 2em;
   text-align: center;
-  margin-right: 16px;
+  margin-right: 1em;
+  white-space: nowrap;
 }
 
 .hamburger-menu-icon {
-  width: 34px;
-  height: 38px;
-  margin-right: 16px;
+  height: 2.2em;
+  width: 2.2em;
+  margin-right: 1em;
 }
