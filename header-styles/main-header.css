@@ -1,4 +1,4 @@
-.header {
+.main-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(55, 144, 247);
+  background-color: rgb(8, 38, 54);
   height: 3.8em;
   z-index: 100;
 }
@@ -22,7 +22,7 @@
 }
 
 .header-title {
-  color: white;
+  color: rgb(121, 120, 173);
   font-family: 'Cherry Swash', Arial;
   font-size: 2em;
   text-align: center;

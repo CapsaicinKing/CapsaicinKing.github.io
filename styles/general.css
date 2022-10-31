@@ -1,14 +1,12 @@
 body {
   margin: 0;
-  padding-top: 5em;
-  background-color: rgb(232, 255, 255);
+  padding-top: 76px;
+  background-color: rgb(32, 36, 36);
   font-family: Roboto, Arial;
+  text-decoration: none;
 }
 
 p {
+  color: white;
   margin: 0;
-}
-
-a {
-  text-decoration: none;
 }
