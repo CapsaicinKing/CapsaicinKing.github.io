@@ -6,9 +6,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(8, 38, 54);
+  background-color: rgb(32, 32, 32);
   height: 3.8em;
   z-index: 100;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .home-icon-container {
@@ -22,7 +23,7 @@
 }
 
 .header-title {
-  color: rgb(121, 120, 173);
+  color: white;
   font-family: 'Cherry Swash', Arial;
   font-size: 2em;
   text-align: center;

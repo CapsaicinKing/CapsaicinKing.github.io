@@ -13,10 +13,9 @@
 }
 
 .project-list div {
-  background-color: lightblue;
   display: flex;
   height: 86px;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .project-cover {
@@ -27,7 +26,7 @@
 
 @media (min-width: 1000px) {
   .project-list {
-    width: 50%;
+    width: 60%;
     justify-content: space-around;
   }
 }
