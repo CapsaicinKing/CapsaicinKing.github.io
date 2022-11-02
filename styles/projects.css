@@ -12,7 +12,7 @@
   align-items: left;
 }
 
-.project-list div {
+.project-slip {
   display: flex;
   height: 86px;
   border-radius: 10px;
@@ -22,6 +22,33 @@
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.project-details {
+  display: flex;
+  margin-left: 14px;
+  width: 100%;
+}
+
+.top-details {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-name-link {
+  font-family: Roboto, Arial;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+.last-updated {
+  margin-top: 0;
+  color: rgb(93, 96, 99);
 }
 
 @media (min-width: 1000px) {

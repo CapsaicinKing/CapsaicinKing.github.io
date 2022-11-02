@@ -22,3 +22,8 @@ hr {
   border-color: rgb(29, 29, 29);
   background-color: rgb(29, 29, 29);
 }
+
+span {
+  font-family: Roboto, Arial;
+  margin: 0;
+}
