@@ -3,7 +3,6 @@ body {
   padding-top: 5em;
   background-color: rgb(32, 32, 32);
   font-family: Roboto, Arial;
-  height: 3000px;
 }
 
 p {
@@ -26,4 +25,29 @@ hr {
 span {
   font-family: Roboto, Arial;
   margin: 0;
+}
+
+.scrollbar {
+  position: absolute;
+  top: 3.8em;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(42, 42, 42);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(69, 69, 69);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(90, 90, 90);
 }
