@@ -11,7 +11,13 @@
   flex-direction: column;
   row-gap: 14px;
   align-items: left;
-  padding-left: 10px;
+  padding-left: 3px;
+}
+
+@media screen and (min-width: 1000px) {
+  .project-list {
+    padding-left: 10px;
+  }
 }
 
 .project-slip {
