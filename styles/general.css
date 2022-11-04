@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding-top: 5em;
   background-color: rgb(32, 32, 32);
   font-family: Roboto, Arial;
 }
@@ -20,6 +19,7 @@ hr {
   border-style: solid;
   border-color: rgb(29, 29, 29);
   background-color: rgb(29, 29, 29);
+  margin: 0;
 }
 
 span {

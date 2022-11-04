@@ -2,16 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 34px;
+  margin-top: 5%;
 }
 
 .project-list {
   width: 90%;
   display: flex;
   flex-direction: column;
-  row-gap: 14px;
+  row-gap: 1.2em;
   align-items: left;
-  padding-left: 3px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -22,7 +21,7 @@
 
 .project-slip {
   display: flex;
-  height: 86px;
+  height: 70px;
   border-radius: 10px;
 }
 
@@ -42,21 +41,20 @@
   display: flex;
   width: 100%;
   height: 30%;
-  align-items: center;
   justify-content: space-between;
 }
 
 .project-name-link {
   font-family: Roboto, Arial;
-  font-size: 1.2em;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 500;
   letter-spacing: 0.2px;
   color: white;
 }
 
 .last-updated {
-  margin-top: 0;
-  color: rgb(93, 96, 99);
+  color: rgb(102, 102, 102);
+  margin-top: 2px;
 }
 
 @media (min-width: 1000px) {
