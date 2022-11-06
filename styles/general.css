@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(14, 13, 15);
   font-family: Roboto, Arial;
 }
 
@@ -17,8 +17,8 @@ hr {
   width: 100%;
   height: 0;
   border-style: solid;
-  border-color: rgb(29, 29, 29);
-  background-color: rgb(29, 29, 29);
+  border-color: rgb(63, 63, 63);
+  background-color: rgb(63, 63, 63);
   margin: 0;
 }
 
