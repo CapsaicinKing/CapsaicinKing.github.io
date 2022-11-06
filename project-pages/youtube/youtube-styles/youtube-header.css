@@ -1,0 +1,22 @@
+.main-header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(24, 24, 24);
+  height: 60px;
+  box-shadow: 0 0 6px rgba(102, 102, 102, 0.2);
+}
+
+.header-title {
+  color: white;
+  font-size: 1.8rem;
+  margin: 0;
+  font-family: 'Cherry Swash', Arial;
+  white-space: nowrap;
+  font-weight: 500;
+}
