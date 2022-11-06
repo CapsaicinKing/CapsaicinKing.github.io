@@ -11,23 +11,20 @@
   box-shadow: 0 0 6px rgba(102, 102, 102, 0.2);
 }
 
-.header-title-container {
-  flex: 1;
-  display: flex;
-  justify-content: space-around;
-}
-
 .header-title {
+  flex: 1;
   color: white;
   font-size: 1.8rem;
-  margin: 0 12.5% 0 0;
+  margin: 0;
   font-family: 'Cherry Swash', Arial;
   white-space: nowrap;
   font-weight: 500;
+  text-align: center;
 }
 
 .hamburger-menu-icon-container {
   display: flex;
+  position: absolute;
   align-items: center;
   height: 100%;
   margin-left: 5%;
