@@ -1,22 +1,41 @@
-.main-header {
+header {
   position: fixed;
-  z-index: 100;
   top: 0;
   left: 0;
   right: 0;
+  height: 42px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
-  background-color: rgb(24, 24, 24);
-  height: 60px;
-  box-shadow: 0 0 6px rgba(102, 102, 102, 0.2);
+  background-color: white;
+  z-index: 999;
 }
 
-.header-title {
-  color: white;
-  font-size: 1.8rem;
-  margin: 0;
-  font-family: 'Cherry Swash', Arial;
-  white-space: nowrap;
-  font-weight: 500;
+.youtube-logo {
+  margin-left: 14px;
+  height: 100%;
+}
+
+.action-icons {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  margin-right: 14px;
+}
+
+.cast-icon {
+  height: 20px;
+}
+
+.notification-icon {
+  height: 22px;
+}
+
+.search-icon {
+  height: 20px;
+}
+
+.user-pfp {
+  height: 24px;
 }
