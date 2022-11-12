@@ -24,13 +24,13 @@ nav div {
   color: black;
   font-size: 12px;
   text-align: center;
-  margin-top: -18px;
+  margin-top: -16px;
   padding-bottom: 12px;
 }
 
 .home-icon {
-  height: 50px;
-  
+  height: 48px;
+  width: 54px;
   padding-bottom: 4px;
 }
 
