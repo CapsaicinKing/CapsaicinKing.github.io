@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(14, 13, 15);
+  background-color: rgb(10, 13, 15);
   font-family: Roboto, Arial;
 }
 
@@ -17,8 +17,8 @@ hr {
   width: 100%;
   height: 0;
   border-style: solid;
-  border-color: rgb(25, 25, 26);
-  background-color: rgb(25, 25, 26);
+  border-color: rgb(20, 21, 23);
+  background-color: rgb(20, 21, 23);
   margin: 0;
 }
 
@@ -37,7 +37,7 @@ span {
 }
 
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
