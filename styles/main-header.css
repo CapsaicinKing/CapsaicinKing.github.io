@@ -6,9 +6,9 @@
   right: 0;
   display: flex;
   align-items: center;
-  background-color: rgb(18, 20, 24);
+  background-color: rgb(16, 18, 22);
   height: 60px;
-  box-shadow: 0 0 6px rgba(80, 80, 80, 0.2);
+  box-shadow: 0 0 6px rgba(78, 78, 78, 0.2);
 }
 
 .header-title {
