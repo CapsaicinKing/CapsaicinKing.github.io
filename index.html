@@ -19,22 +19,10 @@
   </head>
   <body>
     <header class="main-header">
-      <img class="hamburger-menu-icon" src="images/hamburger-menu-icon.png" title="navigation">
+      <div class="hamburger-menu-icon-container">
+        <img class="hamburger-menu-icon" src="images/hamburger-menu-icon.png" title="navigation">
+      </div>
       <h1 class="header-title">Xavier's Projects</h1>
-      <script>
-        var counter = 0;
-        function switchContrast() {
-          if (counter % 2 == 0) {
-            document.getElementById("contrast").src = "images/dark-mode.png";
-          } else {
-            document.getElementById("contrast").src = "images/light-mode.png";
-          }
-          ++counter;
-        }
-      </script>
-      <button class="change-contrast-button" onclick="switchContrast()">
-        <img id="contrast" src="images/light-mode.png" alt="light mode button">
-      </button>
     </header>
     <div class="scrollbar">
       <main class="project-list-container">
