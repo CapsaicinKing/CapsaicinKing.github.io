@@ -6,9 +6,14 @@
   right: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: rgb(16, 18, 22);
   height: 60px;
   box-shadow: 0 0 6px rgba(78, 78, 78, 0.2);
+}
+
+.hamburger-menu-icon {
+  height: 55%;
 }
 
 .header-title {
@@ -22,15 +27,10 @@
   text-align: center;
 }
 
-.hamburger-menu-icon-container {
-  display: flex;
-  position: absolute;
-  align-items: center;
+.change-contrast-button {
   height: 100%;
-  margin-left: 5%;
 }
 
-.hamburger-menu-icon {
-  height: 55%;
-  width: 100%;
+#contrast {
+  height: 100%;
 }
