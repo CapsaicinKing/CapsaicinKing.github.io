@@ -17,12 +17,15 @@
     <!--fonts--> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <header class="main-header">
+  <body id="body">
+    <header id="main-header" class="main-header">
       <img class="hamburger-menu-icon" src="images/hamburger-menu-icon.png" title="navigation">
       <h1 class="header-title">Xavier's Projects</h1>
+      <button class="change-contrast-button" onclick="switchContrast()">
+        <img id="contrast" src="images/light-mode.png" alt="light mode button">
+      </button>
     </header>
     <div class="scrollbar">
       <main class="project-list-container">
@@ -33,9 +36,11 @@
             </a>
             <div class="project-details">
               <div class="top-details">
+                
                 <a class="project-name-link" href="project-pages/youtube/youtube-page.html">
                   <h2 class="project-name">Youtube Clone</h2>
                 </a>
+                
                 <span class="last-updated">Updated: X</span>
               </div>
               <div class="bottom-details">
@@ -43,7 +48,7 @@
               </div>
             </div>
           </div>
-          <hr>
+          <hr id="hr1" class="hr">
           <div class="project-slip">
             <a href="project-pages/youtube/youtube-page.html">
               <img class="project-cover" src="project-covers/twitter.png" alt="twitter logo">
@@ -60,36 +65,37 @@
               </div>
             </div>
           </div>
-          <hr>
+          <hr class="hr">
           <div class="project-slip">
   
           </div>
-          <hr>
+          <hr class="hr">
           <div class="project-slip">
   
           </div>
-          <hr>
+          <hr class="hr">
           <div class="project-slip">
   
           </div>
-          <hr>
+          <hr class="hr">
           <div class="project-slip">
   
           </div>
-          <hr>
+          <hr class="hr">
           <div class="project-slip">
   
           </div>
-          <hr>
+          <hr class="hr">
           <div class="project-slip">
   
           </div>
-          <hr>
+          <hr class="hr">
           <div class="project-slip">
   
           </div>
         </div>
       </main>
     </div>
+    <script src="scripts/buttons.js"></script>
   </body>
 </html>
