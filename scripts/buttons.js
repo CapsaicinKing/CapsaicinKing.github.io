@@ -1,5 +1,4 @@
 var contrastCounter = 0;
-
 function switchContrast() {
     contrastCounter++;
     let hr = document.getElementsByTagName("hr");
