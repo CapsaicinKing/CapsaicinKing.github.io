@@ -26,14 +26,14 @@
       <!-- TODO: create functionality -->
       <div class="search-bar">
         <input class="search-query" type="text" placeholder="Search projects">
-        <button class="search-button" type="button" onclick=""><img class="search-icon" src="images/search-icon.svg" alt="Click to search"></button>
+        <button class="search-button" type="button" onclick="">
+          <img id="search-icon" class="search-icon" src="images/search-icon.svg" alt="Click to search">
+        </button>
       </div>
 
-      <!-- TODO: fix size of contrast button and use a more simplistic icon -->
       <button class="change-contrast-button" onclick="switchContrast()">
         <img id="contrast" src="images/light-icon.svg" alt="Change the contrast">
       </button>
-
     </header>
     <div class="scrollbar">
       <main class="project-list-container">

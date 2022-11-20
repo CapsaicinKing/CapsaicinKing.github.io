@@ -67,16 +67,18 @@
 }
 
 .last-updated {
-  color: rgb(102, 102, 102);
+  color: rgb(110, 110, 110);
   margin-top: 4px;
   font-size: 14px;
+  transition: color 0.2s;
 }
 
 .description {
   font-size: 15px;
-  color: rgb(102, 102, 102);
+  color: rgb(124, 124, 124);
   margin-top: 6px;  
   line-height: 16px;
+  transition: color 0.2s;
 }
 
 @media (min-width: 1000px) {
