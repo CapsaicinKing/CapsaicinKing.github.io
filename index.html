@@ -23,9 +23,8 @@
     <header id="main-header" class="main-header">
       <img class="hamburger-menu-icon" src="images/hamburger-menu-icon.png" title="navigation">
       
-      <!-- TODO: create functionality -->
       <div class="search-bar">
-        <input class="search-query" type="text" placeholder="Search projects">
+        <input class="search-query" type="text" id="search-query" onkeyup="searchProjects()" placeholder="Search projects">
         <button class="search-button" type="button" onclick="">
           <img id="search-icon" class="search-icon" src="images/search-icon.svg" alt="Click to search">
         </button>
@@ -76,36 +75,10 @@
             </div>
           </div>
           <hr>
-          <div class="project-slip">
-  
-          </div>
-          <hr>
-          <div class="project-slip">
-  
-          </div>
-          <hr>
-          <div class="project-slip">
-  
-          </div>
-          <hr>
-          <div class="project-slip">
-  
-          </div>
-          <hr>
-          <div class="project-slip">
-  
-          </div>
-          <hr>
-          <div class="project-slip">
-  
-          </div>
-          <hr>
-          <div class="project-slip">
-  
-          </div>
         </div>
       </main>
     </div>
     <script src="scripts/buttons.js"></script>
+    <script src="scripts/search-function.js"></script>
   </body>
 </html>
