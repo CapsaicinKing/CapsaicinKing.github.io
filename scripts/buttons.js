@@ -24,9 +24,9 @@ function switchContrast() {
         }
     }
     let description = document.getElementsByClassName("description");
-    if (contrast % 2) {
+    if (contrastCounter % 2) {
         for (let i = 0; i < description.length; i++) {
-            description[i].style.color = "rgb(200, 200, 210)";
+            description[i].style.color = "rgb(190, 190, 200)";
         }
     } else {
         for (let i = 0; i < description.length; i++) {
@@ -43,12 +43,13 @@ function switchContrast() {
             lastUpdated[i].style.color = "rgb(110, 110, 110)";
         }
     }
-    if (contrastCounter % 2 == 0) {
+    if (contrastCounter % 2) {
+        document.getElementById("main-header").style.backgroundColor = "rgb(19, 20, 30)";
+        document.getElementById("body").style.backgroundColor = "rgb(32, 39, 47)";
+        document.getElementById("search-icon").src = "images/dark-search-icon.svg";
+    } else {
         document.getElementById("main-header").style.backgroundColor = "rgb(92, 255, 179)";
         document.getElementById("body").style.backgroundColor = "white";
-        document.getElementById("body").style.backgroundColor = "white";
-    } else {
-        document.getElementById("main-header").style.backgroundColor = "rgb(17, 20, 28)";
-        document.getElementById("body").style.backgroundColor = "rgb(32, 39, 47)";
+        document.getElementById("search-icon").src = "images/light-search-icon.svg";
     }
 }
