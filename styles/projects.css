@@ -51,12 +51,13 @@
   padding: 0 6px 0 6px;
   border-radius: 5px;
   transition: background-color 0.2s;
+  vertical-align: center;
 }
 
 .project-name-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  height: 100%;
 }
 
 .project-name {
