@@ -50,6 +50,7 @@
   border: none;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 35px;
+  margin-right: -10px;
 }
 
 #contrast {
