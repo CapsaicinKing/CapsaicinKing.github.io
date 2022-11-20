@@ -25,27 +25,29 @@
 
 .search-query {
   border: none;
-  padding: 0 0 0 9px;
+  padding: 12px 0 10px 9px;
   border-top-left-radius: 9px;
   border-bottom-left-radius: 9px;
   flex: 1;
-  padding-left: 10px;
-  padding-top: 2px;
+  font-size: 18px;
+  font-family: Roboto, Arial;
+  color: gray;
 }
 
 .search-query:focus {
   outline: none;
-  padding-top: 0;
 }
 
 .search-query::placeholder {
   transition: color 0.11s;
-  font-size: 16px;
+  font-size: 18px;
   color: lightgray;
+  font-family: Roboto, Arial;
 }
 
 .search-query:focus::placeholder {
   color: transparent;
+  
 }
 
 .search-button {
