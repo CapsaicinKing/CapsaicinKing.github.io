@@ -22,10 +22,18 @@
   <body id="body">
     <header id="main-header" class="main-header">
       <img class="hamburger-menu-icon" src="images/hamburger-menu-icon.png" title="navigation">
-      <h1 class="header-title">Xavier's Projects</h1>
+      
+      <!-- TODO: create functionality -->
+      <div class="search-bar">
+        <input class="search-query" type="text" placeholder="Search projects">
+        <button class="search-button" type="button" onclick=""><img class="search-icon" src="images/search-icon.svg" alt="Click to search"></button>
+      </div>
+
+      <!-- TODO: fix size of contrast button and use a more simplistic icon -->
       <button class="change-contrast-button" onclick="switchContrast()">
-        <img id="contrast" src="images/light-mode.png" alt="light mode button">
+        <img id="contrast" src="images/light-icon.svg" alt="Change the contrast">
       </button>
+
     </header>
     <div class="scrollbar">
       <main class="project-list-container">
