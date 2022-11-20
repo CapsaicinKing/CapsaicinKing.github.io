@@ -1,31 +1,36 @@
 var contrastCounter = 0;
 function switchContrast() {
     contrastCounter++;
-    // TODO: Make this more efficient
     let hr = document.getElementsByTagName("hr");
-    for (let i = 0; i < hr.length; i++) {
-        if (contrastCounter % 2 == 0) {
-            hr[i].style.borderColor = "lightgray";
-            hr[i].style.backgroundColor = "lightgray";
-        } else {
+    if (contrastCounter % 2) {
+        for (let i = 0; i < hr.length; i++) {
             hr[i].style.borderColor = "rgb(70, 77, 89)";
             hr[i].style.backgroundColor = "rgb(70, 77, 89)";
         }
+    } else {
+        for (let i = 0; i < hr.length; i++) {
+            hr[i].style.borderColor = "lightgray";
+            hr[i].style.backgroundColor = "lightgray";
+        }
     }
     let projectLink = document.getElementsByClassName("project-name-link");
-    for (let i = 0; i < projectLink.length; i++) {
-        if (contrastCounter % 2 == 0) {
-            projectLink[i].style.backgroundColor = "rgb(134, 241, 197)";
-        } else {
+    if (contrastCounter % 2) {
+        for (let i = 0; i < projectLink.length; i++) {
             projectLink[i].style.backgroundColor = "gray";
+        }
+    } else {
+        for (let i = 0; i < projectLink.length; i ++) {
+            projectLink[i].style.backgroundColor = "rgb(134, 241, 197)";
         }
     }
     let description = document.getElementsByClassName("description");
-    for (let i = 0; i < description.length; i++) {
-        if (contrastCounter % 2 == 0) {
-            description[i].style.color = "rgb(124, 124, 124)";
-        } else {
+    if (contrast % 2) {
+        for (let i = 0; i < description.length; i++) {
             description[i].style.color = "rgb(200, 200, 210)";
+        }
+    } else {
+        for (let i = 0; i < description.length; i++) {
+            description[i].style.color = "rgb(124, 124, 124)";
         }
     }
     let lastUpdated = document.getElementsByClassName("last-updated");
