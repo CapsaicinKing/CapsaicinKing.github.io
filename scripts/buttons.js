@@ -20,11 +20,9 @@ function switchContrast() {
         }
     }
     if (contrastCounter % 2 == 0) {
-        document.getElementById("contrast").src = "images/light-mode.png";
         document.getElementById("main-header").style.backgroundColor = "rgb(92, 255, 179)";
         document.getElementById("body").style.backgroundColor = "white";
     } else {
-        document.getElementById("contrast").src = "images/dark-mode.png";
         document.getElementById("main-header").style.backgroundColor = "rgb(16, 18, 22)";
         document.getElementById("body").style.backgroundColor = "rgb(10, 11, 12)";
     }
