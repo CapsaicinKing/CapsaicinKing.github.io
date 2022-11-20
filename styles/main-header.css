@@ -69,18 +69,18 @@
 }
 
 .change-contrast-button {
-  height: 100%;
+  height: 50px;
   border: none;
   background-color: transparent;
   border-radius: 35px;
   margin-right: -10px;
 }
 
-#contrast {
-  margin-top: 4px;
-  height: 70%;
+.change-contrast-button:hover {
+  cursor: pointer;
 }
 
-#contrast:hover {
-  cursor: pointer;
+#contrast {
+  margin-top: 4px;
+  height: 80%;
 }
