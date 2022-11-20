@@ -64,8 +64,12 @@
   cursor: pointer;
 }
 
-.search-icon {
+.light-search-icon, .dark-search-icon {
   height: 100%;
+}
+
+.dark-search-icon {
+  display: none;
 }
 
 .change-contrast-button {

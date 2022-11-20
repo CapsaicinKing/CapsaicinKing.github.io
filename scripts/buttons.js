@@ -46,10 +46,10 @@ function switchContrast() {
     if (contrastCounter % 2) {
         document.getElementById("main-header").style.backgroundColor = "rgb(19, 20, 30)";
         document.getElementById("body").style.backgroundColor = "rgb(32, 39, 47)";
-        document.getElementById("search-icon").src = "images/dark-search-icon.svg";
+
     } else {
         document.getElementById("main-header").style.backgroundColor = "rgb(92, 255, 179)";
         document.getElementById("body").style.backgroundColor = "white";
-        document.getElementById("search-icon").src = "images/light-search-icon.svg";
+        
     }
 }
