@@ -1,6 +1,7 @@
 var contrastCounter = 0;
 function switchContrast() {
     contrastCounter++;
+    // TODO: Make this more efficient
     let hr = document.getElementsByTagName("hr");
     for (let i = 0; i < hr.length; i++) {
         if (contrastCounter % 2 == 0) {
