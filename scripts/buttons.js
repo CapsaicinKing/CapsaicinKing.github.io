@@ -14,14 +14,17 @@ function switchContrast() {
             hr[i].style.backgroundColor = "lightgray";
         }
     }
-    let projectLink = document.getElementsByClassName("project-name-link");
+    let darkProjectNameContainer = document.getElementsByClassName("dark-project-name-container");
+    let lightProjectNameContainer = document.getElementsByClassName("light-project-name-container");
     if (contrastCounter % 2) {
-        for (let i = 0; i < projectLink.length; i++) {
-            projectLink[i].style.backgroundImage = "linear-gradient(45deg, #F54B64, #F78361)";
+        for (let i = 0; i < darkProjectNameContainer.length; i++) {
+            darkProjectNameContainer[i].style.opacity = 1;
+            lightProjectNameContainer[i].style.opacity = 0;
         }
     } else {
-        for (let i = 0; i < projectLink.length; i ++) {
-            projectLink[i].style.backgroundImage = "linear-gradient(45deg, #00E3B8, #5CFFB3)";
+        for (let i = 0; i < lightProjectNameContainer.length; i++) {
+            lightProjectNameContainer[i].style.opacity = 1;
+            darkProjectNameContainer[i].style.opacity = 0;
         }
     }
     let description = document.getElementsByClassName("description");
