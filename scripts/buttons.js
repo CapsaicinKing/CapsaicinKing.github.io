@@ -17,11 +17,11 @@ function switchContrast() {
     let projectLink = document.getElementsByClassName("project-name-link");
     if (contrastCounter % 2) {
         for (let i = 0; i < projectLink.length; i++) {
-            projectLink[i].style.backgroundColor = "rgb(124, 132, 149)";
+            projectLink[i].style.backgroundImage = "linear-gradient(45deg, #F54B64, #F78361)";
         }
     } else {
         for (let i = 0; i < projectLink.length; i ++) {
-            projectLink[i].style.backgroundColor = "rgb(134, 255, 198)";
+            projectLink[i].style.backgroundImage = "linear-gradient(45deg, #00E3B8, #5CFFB3)";
         }
     }
     let description = document.getElementsByClassName("description");

@@ -7,9 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(92, 255, 179);
+  background-color: #5CFFB3;
   height: 60px;
-  box-shadow: 0 0 6px rgba(78, 78, 78, 0.2);
+  box-shadow: 0 0 6px #4E4E4E33;
   transition: background-color 0.2s, box-shadow 0.2s;
   padding: 0 5% 0 5%;
 }
@@ -31,7 +31,7 @@
   flex: 1;
   font-size: 18px;
   font-family: Roboto, Arial;
-  color: gray;
+  color: #808080;
 }
 
 .search-query:focus {
@@ -41,7 +41,7 @@
 .search-query::placeholder {
   transition: color 0.11s;
   font-size: 18px;
-  color: lightgray;
+  color: #D3D3D3;
   font-family: Roboto, Arial;
 }
 
