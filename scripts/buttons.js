@@ -16,21 +16,21 @@ function switchContrast() {
     let projectLink = document.getElementsByClassName("project-name-link");
     if (contrastCounter % 2) {
         for (let i = 0; i < projectLink.length; i++) {
-            projectLink[i].style.backgroundColor = "gray";
+            projectLink[i].style.backgroundColor = "rgb(124, 132, 149)";
         }
     } else {
         for (let i = 0; i < projectLink.length; i ++) {
-            projectLink[i].style.backgroundColor = "rgb(134, 241, 197)";
+            projectLink[i].style.backgroundColor = "rgb(134, 255, 198)";
         }
     }
     let description = document.getElementsByClassName("description");
-    if (contrast % 2) {
+    if (contrastCounter % 2) {
         for (let i = 0; i < description.length; i++) {
             description[i].style.color = "rgb(200, 200, 210)";
         }
     } else {
         for (let i = 0; i < description.length; i++) {
-            description[i].style.color = "rgb(124, 124, 124)";
+            description[i].style.color = "rgb(129, 129, 129)";
         }
     }
     let lastUpdated = document.getElementsByClassName("last-updated");
@@ -43,17 +43,17 @@ function switchContrast() {
             lastUpdated[i].style.color = "rgb(110, 110, 110)";
         }
     }
-    if (contrastCounter % 2 == 0) {
-        document.getElementById("main-header").style.backgroundColor = "rgb(92, 255, 179)";
-        document.getElementById("main-header").style.boxShadow = "0 0 6px rgba(78, 78, 78, 0.2)";
-        document.getElementById("body").style.backgroundColor = "white";
-        document.getElementById("light-search-icon").style.opacity = 1;
-        document.getElementById("dark-search-icon").style.opacity = 0;
-    } else {
+    if (contrastCounter % 2) {
         document.getElementById("main-header").style.backgroundColor = "rgb(17, 20, 28)";
         document.getElementById("main-header").style.boxShadow = "0 0 6px rgba(0, 0, 0, 0.4)";
         document.getElementById("body").style.backgroundColor = "rgb(32, 39, 47)";
         document.getElementById("dark-search-icon").style.opacity = 1;
         document.getElementById("light-search-icon").style.opacity = 0;
+    } else {
+        document.getElementById("main-header").style.backgroundColor = "rgb(92, 255, 179)";
+        document.getElementById("main-header").style.boxShadow = "0 0 6px rgba(78, 78, 78, 0.2)";
+        document.getElementById("body").style.backgroundColor = "white";
+        document.getElementById("light-search-icon").style.opacity = 1;
+        document.getElementById("dark-search-icon").style.opacity = 0;
     }
 }
