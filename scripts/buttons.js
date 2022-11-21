@@ -1,5 +1,6 @@
 var contrastCounter = 0;
 function switchContrast() {
+    // dark ui is the if statement; else statement is for the light ui
     contrastCounter++;
     let hr = document.getElementsByTagName("hr");
     if (contrastCounter % 2) {
@@ -44,9 +45,9 @@ function switchContrast() {
         }
     }
     if (contrastCounter % 2) {
-        document.getElementById("main-header").style.backgroundColor = "rgb(17, 20, 28)";
+        document.getElementById("main-header").style.backgroundColor = "rgb(36, 44, 58)";
         document.getElementById("main-header").style.boxShadow = "0 0 6px rgba(0, 0, 0, 0.4)";
-        document.getElementById("body").style.backgroundColor = "rgb(32, 39, 47)";
+        document.getElementById("body").style.backgroundColor = "rgb(36, 42, 56)";
         document.getElementById("dark-search-icon").style.opacity = 1;
         document.getElementById("light-search-icon").style.opacity = 0;
     } else {
