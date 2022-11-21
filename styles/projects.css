@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
+  
 }
 
 .project-list {
@@ -10,12 +11,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 1.2em;
-}
-
-@media screen and (min-width: 1000px) {
-  .project-list {
-    padding-left: 10px;
-  }
 }
 
 .project-slip {
