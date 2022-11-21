@@ -45,10 +45,15 @@ function switchContrast() {
     }
     if (contrastCounter % 2 == 0) {
         document.getElementById("main-header").style.backgroundColor = "rgb(92, 255, 179)";
+        document.getElementById("main-header").style.boxShadow = "0 0 6px rgba(78, 78, 78, 0.2)";
         document.getElementById("body").style.backgroundColor = "white";
-        document.getElementById("body").style.backgroundColor = "white";
+        document.getElementById("light-search-icon").style.opacity = 1;
+        document.getElementById("dark-search-icon").style.opacity = 0;
     } else {
         document.getElementById("main-header").style.backgroundColor = "rgb(17, 20, 28)";
+        document.getElementById("main-header").style.boxShadow = "0 0 6px rgba(0, 0, 0, 0.4)";
         document.getElementById("body").style.backgroundColor = "rgb(32, 39, 47)";
+        document.getElementById("dark-search-icon").style.opacity = 1;
+        document.getElementById("light-search-icon").style.opacity = 0;
     }
 }
