@@ -15,11 +15,12 @@
 }
 
 .hamburger-menu-icon {
-  height: 55%;
+  height: 34px;
+  margin-top: -1px;
 }
 
 .search-form {
-  height: 38px;
+  height: 34px;
   display: flex;
 }
 
@@ -52,7 +53,7 @@
 
 .search-button {
   position: relative;
-  height: 38px;
+  height: 34px;
   width: 36px;
   border: none;
   border-top-right-radius: 33px;
