@@ -21,6 +21,7 @@
 
 .search-form {
   height: 34px;
+  flex: 0.4;
   display: flex;
 }
 
@@ -51,7 +52,7 @@
   color: transparent;
 }
 
-.search-button {
+.search-label {
   position: relative;
   height: 34px;
   width: 36px;
@@ -60,9 +61,10 @@
   border-bottom-right-radius: 33px;
   margin-left: -2px;
   margin-right: -10px;
+  background-color: white;
 }
 
-.search-button:hover {
+.search-label:hover {
   cursor: pointer;
 }
 
