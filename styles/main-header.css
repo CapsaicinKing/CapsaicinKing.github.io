@@ -14,9 +14,12 @@
   padding: 0 5% 0 5%;
 }
 
-.hamburger-menu-icon {
-  height: 34px;
-  margin-top: -1px;
+.info-icon {
+  height: 42px;
+  margin-bottom: -10px;
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
 }
 
 .search-form {

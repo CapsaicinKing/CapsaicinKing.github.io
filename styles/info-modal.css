@@ -1,0 +1,30 @@
+.info-modal-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+.info-modal {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F8F8FF;
+  height: 64%;
+  width: 80%;
+  border-radius: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  z-index: 1001;
+}
+
+.info-modal-title {
+  color: rgb(46, 45, 44);
+  margin-top: 8px;
+  font-size: 28px;
+}
