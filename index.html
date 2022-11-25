@@ -21,7 +21,7 @@
   </head>
   <body id="body">
     <header id="main-header" class="main-header">
-      <img class="info-icon" src="images/info-icon.svg" alt="info" onclick="showInfoModal()">
+      <img class="info-icon" src="images/info-icon.svg" alt="info" onclick="showModal()">
 
         <form class="search-form" action="" autocomplete="off">
           <input class="search-query" id="search-query" type="text" onkeyup="searchProjects()" placeholder="Search projects" spellcheck="false" maxlength="32">
@@ -84,11 +84,11 @@
           <hr>
         </div>
       </main>
-      <div class="info-modal-wrapper">
-        <div class="info-modal">
-          <h2 class="info-modal-title">
-            About this website
-          </h2>
+      <div class="info-modal-wrapper" id="info-modal-wrapper" style="display: none;" onclick="exitModal()">
+        <div class="info-modal" onclick="null">
+          <button class="exit-modal-button" onclick="exitModal()"><img class="exit-icon" src="images/light-exit-icon.svg" alt="Exit modal"></button>
+          <h3 class="modal-title">About this website...</h3>
+          <p class="modal-description">Expect an update every weekend.</p>
         </div>
       </div>
     </div>

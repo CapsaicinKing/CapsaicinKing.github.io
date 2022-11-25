@@ -23,6 +23,7 @@
 }
 
 .search-form {
+  margin-left: -4px;
   height: 34px;
   flex: 0.4;
   display: flex;

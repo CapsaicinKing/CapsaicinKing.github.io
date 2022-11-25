@@ -10,21 +10,48 @@
   justify-content: space-around;
   z-index: 1000;
   padding-top: 60px;
+  padding-right: 7%;
+  padding-left: 7%;
+  transition: display 0.9s;
 }
 
 .info-modal {
+  position: relative;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   background-color: #F8F8FF;
-  height: 64%;
-  width: 80%;
   border-radius: 18px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   z-index: 1001;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 5%;
 }
 
-.info-modal-title {
-  color: rgb(46, 45, 44);
-  margin-top: 8px;
-  font-size: 28px;
+.exit-modal-button {
+  position: absolute;
+  top: 2px;
+  right: -4px;
+  border: none;
+  border-radius: 100%;
+  padding: none;
+  background-color: transparent;
+}
+
+.exit-icon {
+  height: 30px;
+}
+
+.modal-title {
+  color: #2e2d2c;
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.modal-description {
+  color: #2e2d2c;
+  text-align: center
 }
