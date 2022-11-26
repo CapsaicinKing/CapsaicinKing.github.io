@@ -4,7 +4,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #00000066;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -21,7 +21,7 @@
   flex-direction: column;
   background-color: #F8F8FF;
   border-radius: 18px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px #00000066;
   z-index: 1001;
   padding-left: 5%;
   padding-right: 5%;
@@ -44,7 +44,7 @@
 }
 
 .modal-title {
-  color: #2e2d2c;
+  color: #2E2D2C;
   margin-top: 0;
   margin-bottom: 6px;
   font-size: 26px;
@@ -52,6 +52,6 @@
 }
 
 .modal-description {
-  color: #2e2d2c;
+  color: #2E2D2C;
   text-align: center
 }
