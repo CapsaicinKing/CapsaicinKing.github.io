@@ -23,10 +23,10 @@
   border-radius: 18px;
   box-shadow: 0 0 10px #00000066;
   z-index: 1001;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 4%;
-  padding-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 34px;
 }
 
 .exit-modal-button {
@@ -46,7 +46,7 @@
 .modal-title {
   color: #2E2D2C;
   margin-top: 0;
-  margin-bottom: 6px;
+  margin-bottom: 0;
   font-size: 26px;
   text-align: center;
 }
